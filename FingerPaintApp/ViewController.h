@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FingerPaintView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <FingerPaintDelegate>
+
+@property (nonatomic,strong) id <FingerPaintDelegate> delegate;
+
+@property (nonatomic) UIBezierPath *line;
+@property (nonatomic) UIColor *color;
 
 
 @end

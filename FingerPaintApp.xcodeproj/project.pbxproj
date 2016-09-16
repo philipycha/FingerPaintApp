@@ -13,6 +13,7 @@
 		152BB3341D8C7C6900EFFC04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152BB3321D8C7C6900EFFC04 /* Main.storyboard */; };
 		152BB3361D8C7C6900EFFC04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152BB3351D8C7C6900EFFC04 /* Assets.xcassets */; };
 		152BB3391D8C7C6900EFFC04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152BB3371D8C7C6900EFFC04 /* LaunchScreen.storyboard */; };
+		152BB3421D8C814D00EFFC04 /* FingerPaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 152BB3411D8C814D00EFFC04 /* FingerPaintView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		152BB3351D8C7C6900EFFC04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		152BB3381D8C7C6900EFFC04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		152BB33A1D8C7C6900EFFC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152BB3401D8C814D00EFFC04 /* FingerPaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerPaintView.h; sourceTree = "<group>"; };
+		152BB3411D8C814D00EFFC04 /* FingerPaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerPaintView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				152BB32C1D8C7C6900EFFC04 /* AppDelegate.h */,
 				152BB32D1D8C7C6900EFFC04 /* AppDelegate.m */,
+				152BB3401D8C814D00EFFC04 /* FingerPaintView.h */,
+				152BB3411D8C814D00EFFC04 /* FingerPaintView.m */,
 				152BB32F1D8C7C6900EFFC04 /* ViewController.h */,
 				152BB3301D8C7C6900EFFC04 /* ViewController.m */,
 				152BB3321D8C7C6900EFFC04 /* Main.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				152BB3311D8C7C6900EFFC04 /* ViewController.m in Sources */,
 				152BB32E1D8C7C6900EFFC04 /* AppDelegate.m in Sources */,
+				152BB3421D8C814D00EFFC04 /* FingerPaintView.m in Sources */,
 				152BB32B1D8C7C6900EFFC04 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +313,7 @@
 				152BB33F1D8C7C6900EFFC04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
