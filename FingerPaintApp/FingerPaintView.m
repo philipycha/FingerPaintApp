@@ -15,9 +15,13 @@
 -(void)drawRect:(CGRect)rect{
     // ask our delegate for data
     
+//    UIColor *color = [UIColor redColor];
+    
     NSArray *lines = [self.delegate paintArray];
     
     for (UIBezierPath *currentLine in lines) {
+        [[UIColor blueColor] setStroke];
+        [currentLine setLineWidth:3.0];
         [currentLine stroke];
         
         

@@ -18,4 +18,6 @@
 
 @property (nonatomic,strong) id <FingerPaintDelegate> delegate;
 
+@property (nonatomic) UIColor *color;
+
 @end
